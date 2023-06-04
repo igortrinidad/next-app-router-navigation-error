@@ -1,0 +1,11 @@
+.input-classes {
+  @apply block w-full text-lg py-4 pr-4 border border-gray-300 rounded text-gray-800;
+}
+
+.icon-classes {
+  @apply h-full absolute inset-y-0 left-0 flex items-center text-slate-200 pointer-events-none pl-3;
+}
+
+.input[disabled] {
+  @apply cursor-not-allowed backdrop-blur-sm bg-gray-800/60 border-gray-400/30 focus:border-green-200 opacity-70;
+}
